@@ -1,0 +1,21 @@
+.todo-sections {
+    display: flex;
+    > button {
+        flex: 1;
+        cursor: pointer;
+        background-color: #fff;
+        border: 1px solid blueviolet;
+        transition: background-color 0.3s;
+       
+        &:hover {
+            background-color: blueviolet;
+            
+        }
+        &:active {
+            background-color: rgb(69, 16, 119);
+        }
+        &:focus {
+            outline: pink;
+        }
+    }
+}
